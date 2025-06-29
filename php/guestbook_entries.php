@@ -14,11 +14,13 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         $name = htmlspecialchars($row['name'], ENT_QUOTES, 'UTF-8');
         $message = htmlspecialchars($row['message'], ENT_QUOTES, 'UTF-8');
+        $createdAt = htmlspecialchars($row['created'], ENT_QUOTES, 'UTF-8');
         
         // Ausgabe in HTML (z. B. als Liste oder in einem div)
         echo "<div class='entry'>";
         echo "<h3>$name</h3>";
-        echo "<p><strong>Nachricht:</strong> $message</p>";
+        echo "<i>($createdAt)</i>";
+        echo "<p>$message</p>";
         echo "</div>";
     }
 } else {

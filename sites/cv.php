@@ -12,7 +12,7 @@
 
     <div class="content">
         <div class="contentgroup">
-            <div>
+            <div class="contentimage">
                 <i class="fa-solid fa-landmark fa-10x"></i>
             </div>
 
@@ -39,14 +39,41 @@
         </div>
 
         <div class="contentgroup">
-            <div>
+            <div class="contentimage">
                 <i class="fa-solid fa-code fa-10x"></i>
             </div>
         
             <div id="skills" class="section">
-                <h2>Programmierkenntnisse</h2>
+                <h2>Programmiersprachen / Frameworks</h2>
                 <ul>
-                    <li>Webbasierte Sprachen</li>
+                    <li>Fortgeschrittene Kenntnisse
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>PHP</li>
+                            <li>Symfony</li>
+                        </ul>
+                    </li>
+                    <li>Grundkenntnisse
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>Vue.js</li>
+                            <li>SASS / SCSS</li>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>C#</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2>Tools / Anwendungen </h2>
+                <ul>
+                    <li>Adobe XD</li>
+                    <li>Confluence</li>
+                    <li>Microsoft 365</li>
+                    <li>Gitlab / Github (Git)</li>
+                    <li>PHP Storm</li>
+                    <li>Visual Studio / Visual Studio Code</li>
                 </ul>
             </div>
         </div>

@@ -12,7 +12,7 @@
 
     <div class="content">
         <div class="contentgroup">
-            <div>
+            <div class="contentimage">
                 <i class="fa-solid fa-comment fa-10x"></i>
             </div>
 
@@ -20,9 +20,9 @@
                 <h2>Erreichbarkeit</h2>        
                 <ul>
                     <li><i class="fa-solid fa-envelope"></i> Mail: <a href="mailto:cjaskulla@web.de">cjaskulla@web.de</a></li>
-                    <li> <i class="fa-brands fa-linkedin"></i> LinkedIn: </li>
-                    <li><i class="fa-brands fa-xing"></i> Xing: </li>
-                    <li> <i class="fa-brands fa-github"></i> GitHub: Polar-Teddy</li>
+                    <li> <i class="fa-brands fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/chantal-Jaskulla-a4b287353">Chantal Jaskulla</a></li>
+                    <li><i class="fa-brands fa-xing"></i> Xing: <a href="https://www.xing.com/profile/Chantal_Jaskulla">Chantal Jaskulla</a></li>
+                    <li> <i class="fa-brands fa-github"></i> GitHub: <a href="https://github.com/Polar-Teddy">Polar-Teddy</a></li>
                 </ul>
             </div>
         </div>

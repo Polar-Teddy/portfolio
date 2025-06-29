@@ -12,21 +12,21 @@
 
     <div class="content">
         <div class="contentgroup">
-            <div>
+            <div class="contentimage">
                 <i class="fa-solid fa-circle-user fa-10x"></i>
             </div>
 
             <div id="aboutme" class="section">
                 <h2>Über mich</h2>
-                <p>Berufswechsel von Erzieherin zu Fachinformatikerin</p>
-                <p>Duales Studium gegen erfolgreiche verkürzte Ausbildung von 1,5 Jahren eingetauscht</p>
-                <p>Faszination von Computertechnik und programmierbaren Maschinen seit Kindheitstagen</p>
-                <p>Begeisterungsfähig und wissbegierig nach neuen Technologien</p>
+                <p>Berufswechsel von <b>Erzieherin zu Fachinformatikerin</b></p>
+                <p>Duales Studium gegen <b>erfolgreiche verkürzte Ausbildung von 1,5 Jahren</b> eingetauscht</p>
+                <p>Faszination von <b>Computertechnik und programmierbaren Maschinen</b> seit Kindheitstagen</p>
+                <p>Begeisterungsfähig und wissbegierig nach <b>neuen Technologien</b></p>
             </div>
         </div>
 
         <div class="contentgroup">
-            <div>
+            <div class="contentimage">
                 <i class="fa-solid fa-star fa-10x"></i>
             </div>
         
@@ -34,7 +34,9 @@
                 <h2>Softskills</h2>
                 <ul>
                     <li>verantwortungsbewusst & zuverlässig</li>
-                    <li>Teamplayer sowie logisches Denken zur Problemlösung</li>
+                    <li>kreativ & kommunikativ</li>
+                    <li>Teamplayer</li>
+                    <li>leidenschaftlicher Rätsel- sowie Problemlöser</li>
                 </ul>
             </div>
         </div>

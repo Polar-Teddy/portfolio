@@ -176,6 +176,15 @@ ul {
   list-style-type: none;
 }
 
+li {
+  padding: 10px;
+}
+
 a {
   color:goldenrod;
+}
+
+.contentimage {
+  width: 200px;
+  height: 200px;
 }
