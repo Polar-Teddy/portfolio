@@ -5,37 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Chantal Jaskulla</h1>
-        <p>Fachinformatikerin für Anwendungsentwicklung</p>
-    </header>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="/../index.php">Start</a></li>
-            <li><a href="/sites/aboutme.php">Über mich</a></li>
-            <li><a href="/sites/cv.php">Lebenslauf</a></li>
-            <li><a href="/sites/contact.php">Kontakt</a></li>
-        </ul>
-    </nav>
+    <?php include('../php/nav.php'); ?>
 
     <div class="content">
-        <div id="platforms" class="section">
-            <h2>Über die folgenden Plattformen bin ich erreichbar:</h2>
-            <p>LinkedIn</p>
-            <p>Xing</p>
-            <p>Get In IT</p>
-            <p>Github</p>
+        <div class="contentgroup">
+            <div>
+                <i class="fa-solid fa-comment fa-10x"></i>
+            </div>
 
-            <h2>Persönliche Angaben</h2>
-            <p>Weitere Angaben zu <i>Adresse, Telefonnummer sowie Email</i> entnehmen Sie bitte den <b>Bewerbungsunterlagen</b>.</p>
-            <p>Vielen Dank.</p>
-
-            <h3>Über ein persönliches Gespräch würde ich mich sehr freuen.</h3>
+            <div id="platforms" class="section">
+                <h2>Erreichbarkeit</h2>        
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i> Mail: <a href="mailto:cjaskulla@web.de">cjaskulla@web.de</a></li>
+                    <li> <i class="fa-brands fa-linkedin"></i> LinkedIn: </li>
+                    <li><i class="fa-brands fa-xing"></i> Xing: </li>
+                    <li> <i class="fa-brands fa-github"></i> GitHub: Polar-Teddy</li>
+                </ul>
+            </div>
         </div>
     </div>
+
 
     <footer>
         <p>&copy; 2025 Chantal Jaskulla</p>
