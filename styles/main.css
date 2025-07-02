@@ -2,10 +2,9 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-/* Container für alles */
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -19,8 +18,6 @@ header {
     padding: 40px 20px;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
-
 }
 
 .navbar {
@@ -56,7 +53,6 @@ header {
 }
 
 .content {
-    /*flex: 1; /* Wächst, um den restlichen Platz zu füllen */
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -81,8 +77,7 @@ header {
 }
 
 .section {
-    /*min-width: 500px;*/
-    width: 600px;
+    width: 60%;
     padding: 20px;
     padding-bottom: 50px;
 }
@@ -106,6 +101,83 @@ footer {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  color:goldenrod;
+  text-decoration: none;
+}
+
+.contentimage {
+  width: 10%;
+  height: 10%;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: large;
+  font-style: normal;
+}
+
+h3 {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contentgroup,
+  .headergroup {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .section {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+
+  .contentimage {
+    width: 80%;
+    height: auto;
+  }
+
+  header {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -120,7 +192,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #aa8e04;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -130,7 +202,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #7d8308;
 }
 
 .container {
@@ -151,14 +223,12 @@ input[type=submit]:hover {
   margin-top: 6px;
 }
 
-/* Clear floats after the columns */
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
@@ -170,21 +240,4 @@ input[type=submit]:hover {
     width: 400px;
     padding: 20px;
     background-color: white;
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  padding: 10px;
-}
-
-a {
-  color:goldenrod;
-}
-
-.contentimage {
-  width: 200px;
-  height: 200px;
 }
