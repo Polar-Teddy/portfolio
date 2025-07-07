@@ -10,7 +10,7 @@ Eine Homepage zu meiner Person als Portfolio.
 ## Was erwartet dich?
 Die ursprüngliche PHP-Version der Online Variante meiner Homepage mit einem Gästebuch, welches an eine Datenbank angebunden ist und die aktuellsten Beiträge anzeigt.
 
-[guestbook](img/Screenshot_guestbook.png)
+![guestbook](img/Screenshot_guestbook.png)
 
 ***
 
