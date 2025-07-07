@@ -3,7 +3,8 @@
 ##Beschreibung
 Eine Homepage zu meiner Person als Portfolio.
 
-[Online zu finden unter: ](polar-teddy.github.io/homepage/index.html)
+Zu finden unter:
+polar-teddy.github.io/homepage/index.html
 
 
 
